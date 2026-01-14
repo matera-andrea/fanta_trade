@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import { FaExchangeAlt, FaUserEdit, FaUsers, FaSignOutAlt } from 'react-icons/fa';
+import { FaExchangeAlt, FaUserEdit, FaUsers, FaSignOutAlt, FaFileExcel } from 'react-icons/fa';
 import { useState } from 'react';
 
 export default function CommandList() {
@@ -49,6 +49,13 @@ export default function CommandList() {
       title: "Visualizza scambi",
       description: "Controlla gli scambi attivi",
       href: "/admin/manage/trades",
+      color: "bg-orange-100 text-orange-600"
+    },
+    {
+      icon: FaFileExcel,
+      title: "Listone",
+      description: "Importa e genera",
+      href: "/admin/manage/listone",
       color: "bg-orange-100 text-orange-600"
     },
   ];

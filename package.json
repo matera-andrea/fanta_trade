@@ -16,6 +16,8 @@
     "@prisma/extension-accelerate": "^2.0.2",
     "@types/web-push": "^3.6.4",
     "bcryptjs": "^3.0.2",
+    "csv-parse": "^6.1.0",
+    "exceljs": "^4.4.0",
     "jsonwebtoken": "^9.0.2",
     "lucide-react": "^0.542.0",
     "next": "^15.5.2",
@@ -27,6 +29,7 @@
     "react-hook-form": "^7.62.0",
     "react-icons": "^5.5.0",
     "web-push": "^3.6.7",
+    "xlsx": "^0.18.5",
     "zod": "^4.0.17"
   },
   "devDependencies": {
